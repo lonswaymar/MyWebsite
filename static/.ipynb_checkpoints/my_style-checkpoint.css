@@ -29,7 +29,7 @@ body, html {
 }
 
 .navmenu a:hover {
- /* background-color: #cbd5e0; /* grey highlight */
+  background-color: #cbd5e0; /* grey highlight */
   text-decoration: underline;
 }
 
