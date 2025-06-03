@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f4f8; /* pale blue-grey */
+}
+
+.navmenu {
+  width: 20%;
+  background-color: #d9e2ec; /* slightly darker blue-grey */
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace; /* typewriter font */
+}
+
+.navmenu a {
+  display: block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.navmenu a:hover {
+  background-color: #cbd5e0; /* grey highlight */
+  text-decoration: underline;
+}
+
+.content {
+  width: 80%;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
